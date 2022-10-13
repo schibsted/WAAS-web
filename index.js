@@ -40,7 +40,7 @@ downloadButton.addEventListener('click', () => {
         'data:text/plain;charset=utf-8,' + encodeURIComponent(transcript)
     );
 
-    downloadableLink.download = 'myFile' + '.txt';
+    downloadableLink.download = 'transcript' + '.txt';
     document.body.appendChild(downloadableLink);
     downloadableLink.click();
     document.body.removeChild(downloadableLink);
