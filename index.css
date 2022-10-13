@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(216, 241, 255);
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.selectContainer,
+.uploadFileContainer {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.resultContainer {
+    border: 1px solid black;
+    height: 500px;
+    width: 700px;
+    overflow: scroll;
+}
+
+.output {
+    resize: vertical;
+    width: 700px;
+    overflow: scroll;
+}
+
+.downloadBtn {
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+}

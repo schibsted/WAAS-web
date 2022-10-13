@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./index.css" />
+        <script src="index.js" defer></script>
+        <title>WAAS</title>
+    </head>
+    <body>
+        <h1 class="title">WaaS Web</h1>
+        <form action="">
+            <div class="inputContainer">
+                <div class="selectContainer">
+                    <label for="translation">Translate to english?</label>
+                    <select
+                        class="translationSelect"
+                        name="hello"
+                        id="translation"
+                    >
+                        <option class="option" value="null">
+                            Please select
+                        </option>
+                        <option class="optionYes" value="yes">Yes</option>
+                        <option class="optionNo" value="no">No</option>
+                    </select>
+                </div>
+                <div class="uploadFileContainer">
+                    <input type="file" id="myFile" name="filename" />
+                    <input type="submit" />
+                </div>
+            </div>
+        </form>
+        <h2>Transcribed result</h2>
+        <textarea class="output" name="" id="" cols="30" rows="10"></textarea>
+        <button class="downloadBtn">Download transcript</button>
+    </body>
+</html>
